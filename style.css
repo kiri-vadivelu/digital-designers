@@ -1,4 +1,4 @@
-/* Site Structure */
+/* Structure */
 :root {
     margin: 0;
     padding: 0;
@@ -7,14 +7,14 @@
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     --primary: white;
-    --secondary: gray;
-    --dark: black;
+    --secondary: black;
+    --dark: grey;
     --light: silver;
     --theme: rgb(0,128,255);
     --highlight: rgb(255,128,0);
   }
   
-  /* Page Style */
+  /* Style */
   html,
   body {
     background: var(--primary);
@@ -68,7 +68,7 @@
     width: 100%;
   }
   
-  /* Content Style */
+  /* Content */
   
   p,
   h1,
@@ -79,12 +79,11 @@
   
   p {
     font-size: 1.5rem;
-    text-align: justify;
   }
     
   h1 {
     padding: 0;
-    font-size: 4rem;
+    font-size: 3.5rem;
     text-align: center;
   }
   
@@ -101,16 +100,26 @@
   }
   
   h4 {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     text-align: center;
   }
   
   a {
+    color: var(--primary);
     text-decoration: none;
   }
   
   a:hover {
+    transition: 0.3s ease;
     border-bottom: 1px solid var(--highlight);
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -ms-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+}
+
+  .current {
+    color: var(--highlight);
   }
   
   li {
@@ -128,8 +137,21 @@
   img {
     max-width: 100%;
   }
+
+  article {
+    width: 90%;
+  }
   
-  /* Header & Navigation */
+  section {
+    width: 600px;
+  }
+   
+  article,
+  section {
+    padding: 20px;
+  }
+  
+  /* Navigation */
   
   nav {
     display: flex;
@@ -150,7 +172,6 @@
   #logo a {
     font-size: 2rem;
     padding: 0 20px;
-    color: var(--highlight);
   }
   
   #menu {
@@ -165,48 +186,16 @@
   #menu li {
     padding: 10px;
   }
-  
-  #menu a {
-    color: var(--primary);
-  }
-  
-  #menu a:hover {
-    transition: 0.4s ease;
-  }
-  
-  #menu .current {
-    color: var(--highlight);
-  }
-  
-  /* Boxes Styles */
-  
-  article {
-    width: 90%;
-  }
-  
-  section {
-    width: 600px;
-  }
    
-  article,
-  section {
-    padding: 20px;
-  }
-  
   /* Footer */
-  
-  footer a {
-    color: var(--theme);
-  }
-    
+      
   footer p {
     text-align: right;
     padding-right: 20px;
     font-size: 1.4rem;
   }
   
-  
-  /* Landing Page */
+  /* Landing */
   
   .home {
     max-width: 1280px;
@@ -229,6 +218,22 @@
     border: none;
     text-align: center;
   }
+
+  /* Service */
+
+
+
+  /* Story */
+
+
+
+  /* Company */
+
+
+
+  /* Contact */
+
+
   
   /* Media Queries */
 
