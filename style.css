@@ -11,13 +11,14 @@
     --dark: black;
     --light: silver;
     --theme: rgb(0,128,255);
+    --highlight: rgb(255,128,0);
   }
   
   /* Page Style */
   html,
   body {
     background: var(--primary);
-    color: var(--secondary);
+    color: var(--dark);
     overflow: auto;
     margin: auto;
     width: 100%;
@@ -32,12 +33,12 @@
   
   header {
     position: fixed;
-    opacity: 0.8;
+    opacity: 0.9;
     top: 0;
   }
   
   #main {
-    max-width: 1600px;
+    max-width: 1920px;
     min-height: 90vh;
     padding-top: 50px;
     padding-bottom: 200px;
@@ -55,7 +56,7 @@
   
   header,
   footer {
-    background: var(--secondary);
+    background: var(--theme);
     color: var(--light);
     z-index: 1;
     overflow: hidden;
@@ -106,11 +107,10 @@
   
   a {
     text-decoration: none;
-    color: var(--secondary);
   }
   
   a:hover {
-    border-bottom: 1px solid var(--theme);
+    border-bottom: 1px solid var(--highlight);
   }
   
   li {
@@ -150,7 +150,7 @@
   #logo a {
     font-size: 2rem;
     padding: 0 20px;
-    color: var(--theme);
+    color: var(--highlight);
   }
   
   #menu {
@@ -167,16 +167,15 @@
   }
   
   #menu a {
-    color: var(--light);
+    color: var(--primary);
   }
   
   #menu a:hover {
-    color: var(--theme);
     transition: 0.4s ease;
   }
   
   #menu .current {
-    color: var(--theme);
+    color: var(--highlight);
   }
   
   /* Boxes Styles */
