@@ -15,4 +15,4 @@
         if (typeof history.onpushstate == "function") { history.onpushstate({ state: state }); }
         setTimeout(track, options.delay || 10); return pushState.apply(history, arguments);
     }; track(); context.ma = { trackEvent, trackException };
-})(window, "UA-154865406-1", { anonymizeIp: true, colorDepth: true, characterSet: true, screenSize: true, language: true });
+})(window, "UA-154865406-2", { anonymizeIp: true, colorDepth: true, characterSet: true, screenSize: true, language: true });
