@@ -32,21 +32,31 @@
   }
     
   #main {
-    max-width: 1920px;
+    max-width: 1600px;
     min-height: 90vh;
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 200px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
+
+  header {
+    position: fixed;
+    top: 0;
+    border-bottom: solid 2px var(--highlight);
+  }
+
+  footer {
+    position: absolute;
+    bottom: 0;
+  }
   
+  header,
   footer {
     width: 100%;
-    position: absolute;
     opacity: 0.9;
-    bottom: 0;
     background: var(--theme);
     color: var(--light);
     z-index: 1;
@@ -120,10 +130,12 @@
 
   article {
     width: 90%;
+    border: solid 2px green;
   }
-  
+
   section {
     width: 600px;
+    border: solid 2px black;
   }
    
   article,
@@ -174,30 +186,81 @@
     padding-right: 20px;
     font-size: 1.4rem;
   }
+
+  /* Animation */
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes slideRight {
+  0% {
+    transform: translateX(25%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(-25%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(25%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-25%);
+  }
+
+  100% {
+    transform: translateY(0%);
+  }
+}
   
   /* Landing */
-  
-  .home {
-    max-width: 1280px;
+
+  header h4 {
+    color: var(--primary);
+    text-transform: uppercase;
   }
-  
-  .home img {
+
+  .home {
+    max-width: 960px;
+    margin: auto;
+  }
+    
+  .fa-seedling {
     display: block;
+    height: 50%;
+    opacity: .9;
+    color: var(--highlight);
     margin: auto;
     padding-top: 1rem;
     animation: fadeIn 2s ease;
     -webkit-animation: fadeIn 2s ease;
   }
   
-  .home h1 {
-    animation: slideDown 1s ease;
-    -webkit-animation: slideDown 1s ease;
-  }
-  
-  .home h2 {
-    border: none;
-    text-align: center;
-  }
+
 
   /* Service */
 
@@ -213,19 +276,117 @@
 
   /* Contact */
 
-
+  .contact {
+    max-width: 1080px;
+  }
+  .contact h1 {
+    animation: slideDown 1s ease;
+    -webkit-animation: slideDown 1s ease;
+  }
+  
+  .fa-coffee {
+    animation: slideRight 1s ease;
+    -webkit-animation: slideRight 1s ease;
+  }
+  
+  .contact svg:hover {
+    color: var(--theme);
+  }
+  
+  .contact-form-text {
+    margin: 1rem 0;
+    padding: 0 1rem;
+    outline: none;
+  }
+  
+  textarea.contact-form-text {
+    resize: none;
+    height: 15rem;
+  }
+  .contact-form-btn {
+    text-align: center;
+    background: var(--light);
+    color: var(--secondary);
+    cursor: pointer;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+  }
+  
+  .contact-form-btn:hover {
+    background: var(--theme);
+    transition: 0.4s ease;
+    -webkit-transition: 0.4s ease;
+    -moz-transition: 0.4s ease;
+    -ms-transition: 0.4s ease;
+    -o-transition: 0.4s ease;
+  }
+  
+  .contact-form-text:focus {
+    outline: solid 2px var(--theme);
+  }
+  
+  input[type="text"]:valid,
+  input[type="email"]:valid {
+    background-color: var(--theme);
+  }
+  
+  .fa-email,
+  .fa-facebook,
+  .fa-twitter,
+  .fa-linkedin {
+    width: 35px;
+    color: var(--light);
+  }
+  
+  .contact ul {
+    text-align: center;
+    padding: 25px;
+  }
+  
+  .contact li {
+    padding: 5px;
+    display: inline;
+    line-height: 3rem;
+    list-style: none;
+  }
+  
+  button,
+  input,
+  textarea {
+    display: block;
+    width: 100%;
+    height: 3rem;
+    border: 0;
+    border-radius: 0.5rem;
+    background: var(--light);
+    color: var(--secondary);
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    box-sizing: border-box;
+    -webkit-border-radius: 0.5rem;
+    -moz-border-radius: 0.5rem;
+    -ms-border-radius: 0.5rem;
+    -o-border-radius: 0.5rem;
+  }
   
   /* Media Queries */
 
 @media screen and (max-width: 600px) {
 
     #main {
-      padding-top: 75px;
-      padding-bottom: 175px;
+      padding-top: 50px;
+      padding-bottom: 150px;
     }
   
     #logo,
-    #menu {
+    #menu,
+    #main,
+    article,
+    section {
       width: 100%;
     }
   
