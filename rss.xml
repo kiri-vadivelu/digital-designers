@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <atom:link href="https://digitaldesigners.ca/rss.xml" rel="self" type="application/rss+xml" />
+     <title> Digital Designers: Multimedia Research, Graphic Design & Marketing Agency in Toronto</title>
+    <link>https://digitaldesigners.ca</link>
+    <description>Help build brand and promote businesses online through advanced market research,
+    performance based design and sustainable business development utilizing latest technology and results driven market strategy</description>
+    <item>
+      <guid>https://digitaldesigners.ca</guid>
+      <title>Digital Designers</title>
+      <link>https://digitaldesigners.ca</link>
+      <description />
+      <pubDate>Wed, 15 Jan 2020 06:06:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>https://digitaldesigners.ca/index.html</guid>
+      <title>Digital Designers</title>
+      <link>https://digitaldesigners.ca/index.html</link>
+      <description />
+      <pubDate>Wed, 15 Jan 2020 06:06:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>https://digitaldesigners.ca/services.html</guid>
+      <title>Digital Designers: Service, Features and Rates</title>
+      <link>https://digitaldesigners.ca/services.html</link>
+      <description />
+      <pubDate>Wed, 15 Jan 2020 06:06:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>https://digitaldesigners.ca/company.html</guid>
+      <title>Digital Designers: Company, Work and Philosophy</title>
+      <link>https://digitaldesigners.ca/company.html</link>
+      <description />
+      <pubDate>Wed, 15 Jan 2020 06:06:00 Z</pubDate>
+    </item>
+    <item>
+      <guid>https://digitaldesigners.ca/contact.html</guid>
+      <title>Digital Designers: Business Contact</title>
+      <link>https://digitaldesigners.ca/contact.html</link>
+      <description />
+      <pubDate>Wed, 15 Jan 2020 06:06:00 Z</pubDate>
+    </item>
+  </channel>
+</rss>

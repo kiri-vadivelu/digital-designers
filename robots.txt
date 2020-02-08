@@ -1,0 +1,5 @@
+# www.robotstxt.org/
+User-agent: *
+Allow: /
+Allow: /sitemap.xml
+Sitemap: https://digitaldesigners.ca/sitemap.xml

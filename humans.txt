@@ -1,0 +1,28 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+# Copyright (c) 2020 Digital Designers https://www.digitaldesigners.ca
+
+# TEAM
+
+	Photographer/Artist: Viji Velu 
+	https://www.vijiphotography.ca 
+	From: Toronto, ON Canada
+
+	Designer/Developer: Kiri Velu
+	https://www.digitaldesigners.ca
+	From: Toronto, ON Canada
+
+# THANKS
+
+	Brad Traversy, Developer/Educator
+	https://www.traversymedia.com	
+
+	Sean Tucker, Photographer/Educator
+	https://www.seantucker.photography
+	
+	Unmesh Dinda, Designer/Educator
+	https://www.piximperfect.com
+
+# TECHNOLOGY COLOPHON
+
+    Mozilla, Netlify, GitHub, W3Schools, Stackoverflow, VSCode 

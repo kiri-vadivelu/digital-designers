@@ -34,8 +34,8 @@
   #main {
     max-width: 1600px;
     min-height: 90vh;
-    padding-top: 100px;
-    padding-bottom: 200px;
+    padding-top: 50px;
+    padding-bottom: 150px;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -43,29 +43,30 @@
   }
 
   header {
-    position: fixed;
     top: 0;
+    position: fixed;
+    background: var(--secondary);
     border-bottom: solid 2px var(--highlight);
   }
 
   footer {
-    position: absolute;
     bottom: 0;
+    position: absolute;
+    background: var(--theme);
+    
   }
   
   header,
   footer {
     width: 100%;
-    opacity: 0.9;
-    background: var(--theme);
-    color: var(--light);
+    opacity: 0.8;
+    color: var(--primary);
     z-index: 1;
     overflow: hidden;
   }
     
   /* Content */
   
-  p,
   h1,
   h2,
   h3 {
@@ -80,23 +81,17 @@
     padding: 0;
     font-size: 3.5rem;
     text-align: center;
+    color: var(--highlight);
   }
   
   h2 {
     padding: 0;
     font-size: 2.5rem;
-    text-align: right;
   }
   
   h3 {
     font-size: 1.5rem;
-    text-align: left;
     text-transform: uppercase;
-  }
-  
-  h4 {
-    font-size: 1.5rem;
-    text-align: center;
   }
   
   a {
@@ -137,7 +132,7 @@
     width: 600px;
     border: solid 2px black;
   }
-   
+
   article,
   section {
     padding: 20px;
@@ -179,12 +174,17 @@
     padding: 10px;
   }
    
-  /* Footer */
+  /* Header & Footer */
       
   footer p {
     text-align: right;
     padding-right: 20px;
     font-size: 1.4rem;
+  }
+
+  header h3 {
+    text-align: center;
+    text-transform: uppercase;
   }
 
   /* Animation */
@@ -239,30 +239,45 @@
   
   /* Landing */
 
-  header h4 {
-    color: var(--primary);
-    text-transform: uppercase;
-  }
-
   .home {
     max-width: 960px;
     margin: auto;
   }
+
+  .home h1 {
+    animation: slideRight 2s;
+    -webkit-animation: slideRight 2s;
+}
+
+  .home p {
+  animation: slideLeft 2s;
+  -webkit-animation: slideLeft 2s;
+}
     
   .fa-seedling {
     display: block;
-    height: 50%;
-    opacity: .9;
-    color: var(--highlight);
+    width: 50%;
+    opacity: .6;
+    color: var(--theme);
     margin: auto;
     padding-top: 1rem;
-    animation: fadeIn 2s ease;
-    -webkit-animation: fadeIn 2s ease;
   }
   
 
 
   /* Service */
+  .features h3 {
+    color: var(--theme);
+    text-align: center;
+  }
+
+  .features svg {
+    width: 250px;
+    display: block;
+    margin: auto;
+    color: var(--dark);
+    opacity: .7;
+  }
 
 
 
@@ -276,19 +291,10 @@
 
   /* Contact */
 
-  .contact {
-    max-width: 1080px;
+  .contact h2 {
+    text-align: center;
   }
-  .contact h1 {
-    animation: slideDown 1s ease;
-    -webkit-animation: slideDown 1s ease;
-  }
-  
-  .fa-coffee {
-    animation: slideRight 1s ease;
-    -webkit-animation: slideRight 1s ease;
-  }
-  
+
   .contact svg:hover {
     color: var(--theme);
   }
@@ -334,6 +340,7 @@
   }
   
   .fa-email,
+  .fa-github,
   .fa-facebook,
   .fa-twitter,
   .fa-linkedin {
@@ -377,6 +384,7 @@
 
 @media screen and (max-width: 600px) {
 
+  /* main padding to be removed at the end */
     #main {
       padding-top: 50px;
       padding-bottom: 150px;
