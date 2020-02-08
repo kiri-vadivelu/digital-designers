@@ -79,6 +79,7 @@
     
   h1 {
     padding: 0;
+    opacity: .7;
     font-size: 3.5rem;
     text-align: center;
     text-transform: uppercase;
@@ -255,6 +256,11 @@
 }
   
 /* Common */
+
+header h3:hover {
+color: var(--highlight);
+}
+
 .home,
 .legal,
 .company,
@@ -286,6 +292,12 @@
   }
 
   /* Service */
+
+  .services h2 {
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: solid 2px var(--highlight);
+  }
   .features h3 {
     border-bottom: solid 2px var(--highlight);
     text-align: center;
