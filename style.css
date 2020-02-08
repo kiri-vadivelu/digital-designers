@@ -81,8 +81,9 @@
     padding: 0;
     font-size: 3.5rem;
     text-align: center;
-    color: var(--highlight);
-  }
+    text-transform: uppercase;
+    color: var(--theme);
+}
   
   h2 {
     padding: 0;
@@ -199,8 +200,12 @@
 }
 @keyframes slideRight {
   0% {
-    transform: translateX(25%);
-  }
+    transform: translateX(15%);
+    -webkit-transform: translateX(15%);
+    -moz-transform: translateX(15%);
+    -ms-transform: translateX(15%);
+    -o-transform: translateX(15%);
+}
 
   100% {
     transform: translateX(0%);
@@ -209,8 +214,12 @@
 
 @keyframes slideLeft {
   0% {
-    transform: translateX(-25%);
-  }
+    transform: translateX(-15%);
+    -webkit-transform: translateX(-15%);
+    -moz-transform: translateX(-15%);
+    -ms-transform: translateX(-15%);
+    -o-transform: translateX(-15%);
+}
 
   100% {
     transform: translateX(0%);
@@ -219,8 +228,12 @@
 
 @keyframes slideUp {
   0% {
-    transform: translateY(25%);
-  }
+    transform: translateY(15%);
+    -webkit-transform: translateY(15%);
+    -moz-transform: translateY(15%);
+    -ms-transform: translateY(15%);
+    -o-transform: translateY(15%);
+}
 
   100% {
     transform: translateY(0%);
@@ -229,29 +242,38 @@
 
 @keyframes slideDown {
   0% {
-    transform: translateY(-25%);
-  }
+    transform: translateY(-15%);
+    -webkit-transform: translateY(-15%);
+    -moz-transform: translateY(-15%);
+    -ms-transform: translateY(-15%);
+    -o-transform: translateY(-15%);
+}
 
   100% {
     transform: translateY(0%);
   }
 }
   
-  /* Landing */
+/* Common */
+.home,
+.legal,
+.company,
+.contact {
+  max-width: 1080px;
+  margin: auto;
+}
 
-  .home {
-    max-width: 960px;
-    margin: auto;
-  }
+/* Landing */
 
   .home h1 {
-    animation: slideRight 2s;
-    -webkit-animation: slideRight 2s;
+    border-bottom: solid 2px var(--highlight);
+    animation: slideRight 1s;
+    -webkit-animation: slideRight 1s;
 }
 
   .home p {
-  animation: slideLeft 2s;
-  -webkit-animation: slideLeft 2s;
+  animation: slideLeft 1s;
+  -webkit-animation: slideLeft 1s;
 }
     
   .fa-seedling {
@@ -262,37 +284,39 @@
     margin: auto;
     padding-top: 1rem;
   }
-  
-
 
   /* Service */
   .features h3 {
-    color: var(--theme);
+    border-bottom: solid 2px var(--highlight);
     text-align: center;
   }
 
   .features svg {
-    width: 250px;
+    width: 150px;
     display: block;
     margin: auto;
-    color: var(--dark);
-    opacity: .7;
+    color: var(--light);
+    opacity: .9;
   }
 
+  .features svg:hover {
+    color: var(--theme);
+    opacity: .6;
+  }
 
-
-  /* Story */
-
-
+  /* Legal */
+  .legal h1 {
+    color: var(--dark);
+  }
 
   /* Company */
-
-
 
   /* Contact */
 
   .contact h2 {
     text-align: center;
+    color: var(--theme);
+    border-bottom: solid 2px var(--highlight);
   }
 
   .contact svg:hover {
