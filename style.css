@@ -127,12 +127,10 @@
 
   article {
     width: 90%;
-    border: solid 2px green;
   }
 
   section {
     width: 600px;
-    border: solid 2px black;
   }
 
   article,
