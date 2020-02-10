@@ -326,6 +326,9 @@ color: var(--highlight);
   .legal h1 {
     color: var(--dark);
   }
+  .legal {
+    padding: 20px;
+  }
 
   /* Company */
   .company,
