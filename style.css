@@ -14,7 +14,7 @@
     --highlight: rgb(255,128,0);
   }
   
-  /* Style */
+/* Style */
   html,
   body {
     background: var(--primary);
@@ -65,7 +65,7 @@
     overflow: hidden;
   }
     
-  /* Content */
+/* Content */
   h1,
   h2,
   h3 {
@@ -137,8 +137,7 @@
     padding: 20px;
   }
   
-  /* Navigation */
-  
+/* Navigation */ 
   nav {
     display: flex;
     flex-wrap: wrap;
@@ -173,8 +172,7 @@
     padding: 10px;
   }
    
-  /* Header & Footer */
-      
+/* Header & Footer */    
   footer p {
     text-align: right;
     padding-right: 20px;
@@ -186,8 +184,7 @@
     text-transform: uppercase;
   }
 
-  /* Animation */
-
+/* Animation */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -251,9 +248,8 @@
     transform: translateY(0%);
   }
 }
-  
-/* Common */
 
+/* Common */
 header h3:hover {
 color: var(--highlight);
 }
@@ -267,7 +263,6 @@ color: var(--highlight);
 }
 
 /* Landing */
-
   .home h1 {
     border-bottom: solid 2px var(--highlight);
     animation: slideRight 1s;
@@ -288,8 +283,7 @@ color: var(--highlight);
     padding-top: 1rem;
   }
 
-  /* Service */
-
+/* Service */
   .services h2 {
     text-align: center;
     text-transform: uppercase;
@@ -322,12 +316,12 @@ color: var(--highlight);
     text-align: center;
   }
 
-  /* Legal */
+/* Legal */
   .legal h1 {
     color: var(--dark);
   }
   
-  /* Company */
+/* Company */
   .company,
   .services {
     display: flex;
@@ -346,8 +340,7 @@ color: var(--highlight);
     -o-border-radius: 50%;
 }
 
-  /* Contact */
-
+/* Contact */
   .contact h2 {
     text-align: center;
     color: var(--theme);
@@ -439,16 +432,9 @@ color: var(--highlight);
     -o-border-radius: 0.5rem;
   }
   
-  /* Media Queries */
-
+/* Media Queries */
 @media screen and (max-width: 600px) {
-
-  /* main padding to be removed at the end */
-    #main {
-      padding-top: 50px;
-      padding-bottom: 150px;
-    }
-  
+ 
     #logo,
     #menu,
     #main,
