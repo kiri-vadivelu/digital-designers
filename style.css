@@ -284,6 +284,9 @@ color: var(--highlight);
   }
 
 /* Service */
+  .services {
+  max-width: 1150px;
+  }
   .services h2 {
     text-align: center;
     text-transform: uppercase;
