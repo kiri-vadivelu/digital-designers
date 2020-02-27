@@ -311,7 +311,8 @@ color: var(--highlight);
 
   .features,
   .rates,
-  .team {
+  .team,
+  .work {
     width: 300px;
   }
 
@@ -331,7 +332,8 @@ color: var(--highlight);
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
-  .team {
+  .team,
+  .work {
     text-align: center;
   }
 
