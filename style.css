@@ -257,6 +257,7 @@ color: var(--highlight);
 .home,
 .legal,
 .company,
+.projects,
 .contact {
   max-width: 1080px;
   margin: auto;
