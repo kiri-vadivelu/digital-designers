@@ -258,6 +258,8 @@ color: var(--highlight);
 .legal,
 .company,
 .projects,
+.questions,
+.conditions,
 .contact {
   max-width: 1080px;
   margin: auto;
