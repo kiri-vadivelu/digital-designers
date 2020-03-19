@@ -349,6 +349,23 @@ color: var(--highlight);
     -o-border-radius: 50%;
 }
 
+.values {
+  width: 225px;
+}
+
+.values h3 {
+  border-top: solid 2px var(--highlight);
+  text-align: center;
+}
+
+.values svg {
+  width: 75px;
+  display: block;
+  margin: auto;
+  color: var(--light);
+  opacity: .9;
+}
+
 /* Contact */
   .contact h2 {
     text-align: center;
