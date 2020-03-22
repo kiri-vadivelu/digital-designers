@@ -48,7 +48,7 @@
   footer {
     z-index: 1;
     width: 100%;
-    opacity: 0.8;
+    opacity: 0.9;
     position: fixed;
     overflow: hidden;
     color: var(--primary);  
@@ -58,7 +58,7 @@
   h1,
   h2,
   h3 {
-    opacity: 0.9;
+    opacity: 0.8;
   }
   
   p {
@@ -268,7 +268,7 @@ color: var(--highlight);
   .fa-seedling {
     display: block;
     width: 40%;
-    opacity: .8;
+    opacity: .7;
     color: var(--theme);
     margin: auto;
     padding-top: 1rem;
