@@ -22,7 +22,7 @@
     overflow: auto;
     margin: auto;
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
   }
   
   #wrapper {
@@ -33,7 +33,6 @@
     
   #main {
     max-width: 1600px;
-    min-height: 90vh;
     padding-top: 50px;
     padding-bottom: 150px;
     margin: auto;
@@ -42,27 +41,18 @@
     justify-content: space-evenly;
   }
 
-  header {
-    top: 0;
-    position: fixed;
-    background: var(--secondary);
-    border-bottom: solid 2px var(--highlight);
-  }
-
   footer {
     bottom: 0;
-    position: absolute;
-    background: var(--theme);
-    
+    background: var(--theme);  
   }
   
-  header,
   footer {
+    z-index: 1;
     width: 100%;
     opacity: 0.8;
-    color: var(--primary);
-    z-index: 1;
+    position: fixed;
     overflow: hidden;
+    color: var(--primary);  
   }
     
 /* Content */
@@ -78,7 +68,6 @@
     
   h1 {
     padding: 0;
-    opacity: .7;
     font-size: 3.5rem;
     text-align: center;
     text-transform: uppercase;
@@ -279,8 +268,8 @@ color: var(--highlight);
     
   .fa-seedling {
     display: block;
-    width: 50%;
-    opacity: .6;
+    width: 40%;
+    opacity: .8;
     color: var(--theme);
     margin: auto;
     padding-top: 1rem;
@@ -300,7 +289,7 @@ color: var(--highlight);
   }
 
   .features svg {
-    width: 150px;
+    width: 125px;
     display: block;
     margin: auto;
     color: var(--light);
@@ -309,7 +298,7 @@ color: var(--highlight);
 
   .features svg:hover {
     color: var(--theme);
-    opacity: .6;
+    opacity: .8;
   }
 
   .features,
@@ -359,7 +348,7 @@ color: var(--highlight);
 }
 
 .values svg {
-  width: 75px;
+  width: 50px;
   display: block;
   margin: auto;
   color: var(--light);
