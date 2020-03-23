@@ -449,6 +449,10 @@ color: var(--highlight);
       width: 100%;
     }
 
+    footer p {
+      display: none;
+    }
+
     #main {
       padding-bottom: 175px;
     }
