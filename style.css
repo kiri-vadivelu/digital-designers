@@ -230,10 +230,6 @@
 }
 
 /* Common */
-header h3:hover {
-color: var(--highlight);
-}
-
 .home,
 .legal,
 .company,
@@ -259,7 +255,7 @@ color: var(--highlight);
     
   .fa-seedling {
     display: block;
-    width: 40%;
+    width: 50%;
     opacity: .7;
     color: var(--theme);
     margin: auto;
