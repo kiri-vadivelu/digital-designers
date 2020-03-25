@@ -62,7 +62,7 @@
   
   footer {
     bottom: 0;
-    font-weight: bold;
+    font-size: 1.4rem;
     position: relative;
     color: var(--primary); 
     background: var(--theme);  
