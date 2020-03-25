@@ -62,7 +62,7 @@
   
   footer {
     bottom: 0;
-    position: absolute;
+    position: relative;
     color: var(--primary); 
     background: var(--theme);  
   }
