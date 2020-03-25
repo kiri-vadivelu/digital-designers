@@ -167,14 +167,6 @@
   }
    
 /* Animation */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
 @keyframes slideRight {
   0% {
     transform: translateX(15%);
@@ -200,20 +192,6 @@
 
   100% {
     transform: translateX(0%);
-  }
-}
-
-@keyframes slideUp {
-  0% {
-    transform: translateY(15%);
-    -webkit-transform: translateY(15%);
-    -moz-transform: translateY(15%);
-    -ms-transform: translateY(15%);
-    -o-transform: translateY(15%);
-}
-
-  100% {
-    transform: translateY(0%);
   }
 }
 
