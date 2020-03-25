@@ -448,11 +448,7 @@
     #logo {
       text-align: center;
     }
-  
-    #menu li {
-      padding: 5px;
-    }
-  
+
     #menu ul {
       justify-content: space-evenly;
     }
