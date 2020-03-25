@@ -45,8 +45,10 @@
     z-index: 1;
     width: 100%;
     opacity: 0.9;
+    padding: 20px;
     position: fixed;
     overflow: hidden;
+    font-size: 1.3rem;
     color: var(--primary); 
     background: var(--theme);  
   }
@@ -81,7 +83,7 @@
   }
   
   a {
-    color: var(--primary);
+    color: var(--theme);
     text-decoration: none;
   }
   
@@ -158,13 +160,6 @@
     padding: 10px;
   }
    
-/* Footer */    
-  footer p {
-    text-align: right;
-    padding-right: 20px;
-    font-size: 1.4rem;
-  }
-
 /* Animation */
 @keyframes fadeIn {
   from {
@@ -446,10 +441,6 @@
       width: 100%;
     }
 
-    footer p {
-      display: none;
-    }
-
     #main {
       padding-bottom: 175px;
     }
@@ -476,4 +467,14 @@
     h4 {
       font-size: 1.3rem;
     }
+}
+
+@media all and (orientation: landscape) and (max-height: 400px){
+  footer {
+    display: none;
+  }
+
+  #main {
+    padding-bottom: 20px;
+  }
 }
