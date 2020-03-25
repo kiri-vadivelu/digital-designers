@@ -83,8 +83,12 @@
   }
   
   a {
-    color: var(--theme);
+    color: var(--primary);
     text-decoration: none;
+  }
+
+  nav a {
+    color: var(--theme);
   }
   
   a:hover {
