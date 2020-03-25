@@ -86,14 +86,14 @@
     color: var(--primary);
     text-decoration: none;
   }
-
+  
   nav a {
-    color: var(--theme);
-  }
+  color: var(--theme);
+  } 
   
   a:hover {
     border-bottom: 2px solid var(--highlight);
-}
+  }
 
   .current {
     color: var(--highlight);
