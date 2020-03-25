@@ -67,9 +67,11 @@
   h1 {
     padding: 0;
     font-size: 3rem;
+    color: var(--theme);
     text-align: center;
     text-transform: uppercase;
-    color: var(--theme);
+    animation: slideDown 1s ease;
+    -webkit-animation: slideDown 1s ease;
 }
   
   h2 {
