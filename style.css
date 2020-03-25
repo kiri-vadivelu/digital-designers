@@ -42,7 +42,7 @@
     display: flex;
     flex-wrap: wrap;
     max-width: 1400px;
-    padding-bottom: 125px;
+    padding: 50px 0;
     justify-content: space-evenly;
   }
 
@@ -62,7 +62,7 @@
   
   footer {
     bottom: 0;
-    position: relative;
+    position: absolute;
     color: var(--primary); 
     background: var(--theme);  
   }
@@ -71,7 +71,7 @@
   h1,
   h2,
   h3 {
-    opacity: 0.8;
+    opacity: 0.7;
   }
   
   p {
@@ -441,7 +441,7 @@
     }
 
     #main {
-      padding-bottom: 175px;
+      padding: 100px 0;
     }
   
     #logo {
