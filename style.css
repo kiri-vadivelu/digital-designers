@@ -24,6 +24,12 @@
     color: var(--dark);
     background: var(--primary);
   }
+
+  body,
+  header,
+  footer {
+    box-sizing: border-box;
+  }
   
   #wrapper {
     width: 100%;
@@ -35,19 +41,28 @@
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    max-width: 1600px;
+    max-width: 1400px;
     padding-bottom: 125px;
     justify-content: space-evenly;
+  }
+
+  header {
+    top: 0;
+    position: fixed;
+  }
+
+  header, 
+  footer {
+    z-index: 1;
+    width: 100%;
+    opacity: .9;
+    overflow: hidden;
+    padding: 10px 20px;
   }
   
   footer {
     bottom: 0;
-    z-index: 1;
-    width: 100%;
-    opacity: 0.9;
-    padding: 10px 20px;
-    position: fixed;
-    overflow: hidden;
+    position: relative;
     color: var(--primary); 
     background: var(--theme);  
   }
