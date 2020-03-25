@@ -45,7 +45,7 @@
     z-index: 1;
     width: 100%;
     opacity: 0.9;
-    padding: 20px;
+    padding: 10px 20px;
     position: fixed;
     overflow: hidden;
     color: var(--primary); 
