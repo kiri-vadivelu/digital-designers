@@ -456,6 +456,9 @@
     h1 {
       font-size: 2rem;
     }
+    .fa-seedling {
+      padding-top: 0;
+    }
 }
 
 @media all and (orientation: landscape) and (max-height: 400px){
