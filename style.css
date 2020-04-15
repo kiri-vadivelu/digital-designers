@@ -393,10 +393,15 @@
   .fa-email,
   .fa-github,
   .fa-facebook,
+  .fa-instagram,
   .fa-twitter,
   .fa-linkedin {
     width: 35px;
     color: var(--light);
+  }
+  .fa-instagram,
+  .fa-linkedin {
+    width: 33px;
   }
   
   .contact ul {
