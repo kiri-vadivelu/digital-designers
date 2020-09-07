@@ -1,2 +1,0 @@
-# Redirect default Netlify subdomain to primary domain
-https://digitaldesigners.netlify.app/* https://digitaldesigners.ca/:splat 301!
