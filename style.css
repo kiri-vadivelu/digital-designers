@@ -250,14 +250,9 @@
   -webkit-animation: slideLeft 1s;
 }
     
-  .fa-seedling {
-    display: block;
-    width: 50%;
-    opacity: .8;
-    color: var(--theme);
-    margin: auto;
-    padding-top: 1rem;
-  }
+.home svg {
+  opacity: .8;
+}
 
 /* Service */
   .services {
