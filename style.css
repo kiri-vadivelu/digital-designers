@@ -290,10 +290,13 @@
   .team,
   .work {
     width: 300px;
+    margin: 10px;
   }
 
   .rates {
     text-align: center;
+    background-color: rgba(0, 128, 255, .1);
+    border-radius: 10px;
   }
 
 /* Legal */
