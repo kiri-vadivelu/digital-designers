@@ -384,7 +384,7 @@
   }
   
   .contact-form-btn:hover {
-    background: var(--theme);
+    background: rgba(0,65,80, .5);
     transition: 0.4s ease;
     -webkit-transition: 0.4s ease;
     -moz-transition: 0.4s ease;
@@ -393,12 +393,12 @@
   }
   
   .contact-form-text:focus {
-    outline: solid 2px var(--theme);
+    outline: solid 2px rgba(0,65,80, .5);
   }
   
   input[type="text"]:valid,
   input[type="email"]:valid {
-    background-color: (0,65,80, .3);
+    background-color: rgba(0,65,80, .5);
   }
   
   .fa-email,
