@@ -346,6 +346,15 @@
 }
 
 /* Contact */
+
+  .fa-smile-wink {
+    max-width: 300px;
+    color: rgba(0,65,80, .5);
+  }
+  .thanks h1 {
+    padding: 1rem;
+    border-bottom: solid 3px var(--theme);
+  }
   .contact h2 {
     text-align: center;
     color: var(--theme);
