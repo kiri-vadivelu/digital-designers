@@ -290,7 +290,6 @@
   }
 
   .features,
-  .rates,
   .team,
   .work {
     width: 300px;
@@ -298,6 +297,8 @@
   }
 
   .rates {
+    width: 600px;
+    margin: 10px;
     text-align: center;
     background-color: rgba(0,65,80, .1);
     border-radius: 10px;
